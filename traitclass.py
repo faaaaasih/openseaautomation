@@ -1,3 +1,6 @@
+#defines the trait class for body parts as well as the file names associated with each part
+
+
 face_files = {
     "White": "face1",
     "Black": "face2"
