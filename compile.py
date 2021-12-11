@@ -13,7 +13,7 @@ for item in createimage.all_images:
     im3 = Image.open(f'./face_parts/ears/{traitclass.ears_files[item["Ears"]]}.png').convert('RGBA')
     im4 = Image.open(f'./face_parts/hair/{traitclass.hair_files[item["Hair"]]}.png').convert('RGBA')
     im5 = Image.open(f'./face_parts/mouth/{traitclass.mouth_files[item["Mouth"]]}.png').convert('RGBA')
-    im6 = Image.open(f'./face_partsnose/{traitclass.nose_files[item["Nose"]]}.png').convert('RGBA')
+    im6 = Image.open(f'./face_parts/nose/{traitclass.nose_files[item["Nose"]]}.png').convert('RGBA')
 
     #Create each composite
     com1 = Image.alpha_composite(im1, im2)

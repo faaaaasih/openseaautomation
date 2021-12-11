@@ -51,5 +51,5 @@ for item in all_images:
     item["tokenId"] = i
     i = i + 1
    
-print(all_images)
+#print(all_images)
 
