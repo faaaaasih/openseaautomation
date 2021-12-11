@@ -1,0 +1,18 @@
+# Generate the unique combinations based on trait weightings
+for i in range(TOTAL_IMAGES): 
+    
+    new_trait_image = create_new_image()
+    
+    all_images.append(new_trait_image)
+    def all_images_unique(all_images):
+    seen = list()
+    return not any(i in seen or seen.append(i) for i in all_images)
+
+print("Are all images unique?", all_images_unique(all_images))
+# Add token Id to each image
+i = 0
+for item in all_images:
+    item["tokenId"] = i
+    i = i + 1
+   
+print(all_images)
