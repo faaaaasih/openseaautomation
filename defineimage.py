@@ -1,3 +1,13 @@
+from PIL import Image
+from IPython.display import display
+import random
+import json
+import os
+
+import traitclass
+import rarity
+
+
 TOTAL_IMAGES = 100 # Number of random unique images we want to generate
 
 all_images = [] 
