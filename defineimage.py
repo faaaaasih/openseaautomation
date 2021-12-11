@@ -86,7 +86,7 @@ print(nose_count)
 
 for item in all_images:
 
-    im1 = Image.open(f'./trait-layers/face/{traitclass.face_files[item["Face"]]}.png').convert('RGBA')
+    im1 = Image.open(f'./face_parts/face/{traitclass.face_files[item["Face"]]}.png').convert('RGBA')
     im2 = Image.open(f'./trait-layers/eyes/{traitclass.eyes_files[item["Eyes"]]}.png').convert('RGBA')
     im3 = Image.open(f'./trait-layers/ears/{traitclass.ears_files[item["Ears"]]}.png').convert('RGBA')
     im4 = Image.open(f'./trait-layers/hair/{traitclass.hair_files[item["Hair"]]}.png').convert('RGBA')
