@@ -34,9 +34,9 @@ for image in createimage.all_images:
     mouth_count[image["Mouth"]] += 1
     nose_count[image["Nose"]] += 1
     
-#print(face_count)
-#print(ears_count)
-#print(eyes_count)
-#print(hair_count)
-#print(mouth_count)
-#print(nose_count)
+print(face_count)
+print(ears_count)
+print(eyes_count)
+print(hair_count)
+print(mouth_count)
+print(nose_count)

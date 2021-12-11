@@ -3,6 +3,7 @@ from IPython.display import display
 import random
 import json
 import os
+import time
 
 import traitclass
 
@@ -34,7 +35,12 @@ for i in range(TOTAL_IMAGES):
     
     new_trait_image = create_new_image()
     
-    all_images.append(new_trait_image)        
+    all_images.append(new_trait_image)      
+
+    print (all_images)
+
+    time.sleep(3)
+
 
 
 
