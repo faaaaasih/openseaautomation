@@ -49,8 +49,8 @@ def all_images_unique(all_images):
 print("Are all images unique?", all_images_unique(all_images))
 # Add token Id to each image
 i = 0
-for item in all_images:
-    item["tokenId"] = i
+for a in all_images:
+    a["tokenId"] = i
     i = i + 1
    
 print(all_images[0])
