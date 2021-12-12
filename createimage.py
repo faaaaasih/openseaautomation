@@ -37,10 +37,6 @@ for i in range(TOTAL_IMAGES):
     
     all_images.append(new_trait_image)      
 
-    print (all_images)
-
-    time.sleep(3)
-
 
 
 
@@ -57,5 +53,5 @@ for item in all_images:
     item["tokenId"] = i
     i = i + 1
    
-#print(all_images)
+print(all_images[0])
 
