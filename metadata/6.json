@@ -1,0 +1,31 @@
+{
+    "image": "https://gateway.pinata.cloud/ipfs/QmePSChjPphynzy44KXASX4iogMUCiGMUpHoCA6kNxm46Y6.png",
+    "tokenId": 6,
+    "name": "NFT TEST 6",
+    "attributes": [
+        {
+            "trait_type": "Face",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Ears",
+            "value": "ears1"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "regular"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "hair6"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "m3"
+        },
+        {
+            "trait_type": "Nose",
+            "value": "n1"
+        }
+    ]
+}
