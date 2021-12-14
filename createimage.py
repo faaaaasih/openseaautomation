@@ -8,7 +8,7 @@ import time
 import traitclass
 
 
-TOTAL_IMAGES = 100 # Number of random unique images we want to generate
+TOTAL_IMAGES = 10 # Number of random unique images we want to generate
 
 all_images = [] 
 
@@ -53,5 +53,7 @@ for a in all_images:
     a["tokenId"] = i
     i = i + 1
    
-print(all_images[0])
+#print(all_images[0])
+
+print(*all_images,sep='\n')
 
