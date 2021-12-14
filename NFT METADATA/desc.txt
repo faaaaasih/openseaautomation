@@ -1,0 +1,6 @@
+we will used PINATA to create the set and python to generate metadata
+
+1) sign up pinata and upload nft images to pinata
+
+2) get base url --  https://gateway.pinata.cloud/ipfs/QmePSChjPphynzy44KXASX4iogMUCiGMUpHoCA6kNxm46Y
+
