@@ -1,0 +1,13 @@
+To install PIP
+
+curl 'https://bootstrap.pypa.io/get-pip.py' > get-pip.py
+
+sudo python3 get-pip.py
+
+Install PIL (Pillow Image Processing)
+
+sudo pip install pillow
+
+Install Ipython
+
+pip install ipython
